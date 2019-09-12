@@ -15,7 +15,7 @@ upload_flags =
     --port=3232
 ;    --auth=admin
 ```
-Replace `YOUR_ESP` with the IP address of your ESP or with the hostname (eg. `esp32.local). If you use authentication, uncomment the last line.
+Replace `YOUR_ESP` with the IP address of your ESP or with the hostname (eg. `esp32.local`). If you use authentication, uncomment the last line.
 
 ## Arduino IDE
 Tools > Port, select your ESP under 'Network Ports' (Arduino IDE should find it automatically). Unfortunately this didn't work for me, but that's probably because my home WiFi is weird.
